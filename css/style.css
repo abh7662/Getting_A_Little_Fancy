@@ -5,6 +5,14 @@ html{
 body{
     color: #707070;
     font-size: 1.25rem;
+    background-color: blueviolet;
+    color: white;
+}
+@media (orientation: landscape){
+    body{
+        background-color: chartreuse;
+        
+    }
 }
 .container{
     max-width: 980px;
