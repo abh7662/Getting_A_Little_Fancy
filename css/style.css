@@ -53,8 +53,9 @@ span{
 @media (max-width: 500px){
     .columns{
         flex-direction: column;
+        align-items: center;
     }
-    .col1,.col2,.col3,.col4,.col5{
-        width: 100%;
+    .col{
+        width: 95%;
     }
 }
